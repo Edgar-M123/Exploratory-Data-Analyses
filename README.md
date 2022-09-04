@@ -5,14 +5,16 @@
 This is my first self-paced exploratory data analysis.
 
 This analysis was started by finding the NYPD car accident dataset on Google BigQuery. 
-This dataset contained variables describing a single accident report, such as vehicle 
-types involved, timestamp, location, and more.
+This dataset contained variables describing a single accident report, such as *vehicle 
+types involved, timestamp, location*, and more.
 
-Using the google.cloud Python library, I was able to import a subsection of this dataset 
-using a simple SQL Query that extracted 2000 random rows. I performed data cleaning using 
-the Pandas library, and performed data visualizations with matplotlib and seaborn. Some 
-basic statistical tools such as Chi-squared tests and simple/multiple linear regression 
-were performed using the statsmodels library.
+Using the **google.cloud** Python library, I was able to import a subsection of this dataset 
+using a simple SQL Query that extracted 2000 random rows, each one corresponding to a single 
+accident report. I performed data cleaning using the **Pandas** library, and performed data 
+visualizations with **matplotlib** and **seaborn**. Some basic web-scraping was performed 
+using the **BeautifulSoup** and **Requests** libraries to import New York population data from
+Wikipedia. Some basic statistical tools such as Chi-squared tests and simple/multiple linear 
+regression were performed using the **statsmodels** library.
 
 **The findings are summarized below :**
 
