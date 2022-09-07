@@ -1,6 +1,6 @@
 # Exploratory-Data-Analyses
 
-### NYPD Accident Data - Google BigQuery
+### 1. NYPD Accident Data - Google BigQuery
 
 This is my first self-paced exploratory data analysis.
 
